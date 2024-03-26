@@ -179,6 +179,8 @@ a {
 .form-control .bg-transparent .w-100 .py-3 .ps-4 .pe-5{
     color: #FFFFFF !important;
 }
+
+
 .img-fluid-bach
 {
     width: 300px;
@@ -201,6 +203,11 @@ a {
 {
     width: 300px;
     height: 300px;
+}
+.img-fluid-pr1
+{
+    width: 408px;
+    height: 272px;
 }
 
 .img-fluid-pr2
@@ -232,6 +239,29 @@ a {
     width: 408px;
     height: 272px;
 }
+
+.img-fluid{
+    width: 100%;
+}
+
+.btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+    color: #000;
+    background-color: #FFE4B5;
+    border-color: #FFE4B5;
+}
+
+.btn-outline-primary {
+    color: #060808;
+    border-color: #FFE4B5;
+}
+
+.btn-outline-primary:hover
+{
+    color:#FFFFFF;
+    background-color: #FFE4B5;
+    border-color: #FFE4B5;
+}
+
 @media (max-width: 991.98px) {
     .nav-bar {
         margin: 0;
@@ -555,4 +585,8 @@ a {
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+#footer{
+    width: 86px;
+    height: 86px;
 }
